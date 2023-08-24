@@ -2,7 +2,7 @@
 
 [Click here to watch the video of the app](https://youtu.be/e8NlalYOQ_o)
 
-The Cosmic Discoveries App is an iOS application built on the foundation of the **MVVM architecture**. It offers users a visually stunning experience that draws them into the depths of the universe. The app manages data exchange using powerful frameworks such as **Alamofire and Combine**. Leveraging the capabilities of Modern Swift, the Cosmic Discoveries App effectively operates with JSON data. It utilizes the **Codable** and **Decodable** protocols to model and parse the data.
+The Cosmic Discoveries App is an iOS application built on the foundation of the **MVVM architecture**. It offers users a visually stunning experience that draws them into the depths of the universe. The app manages data exchange using powerful frameworks such as **Alamofire, URLSession and Combine**. Leveraging the capabilities of Modern Swift, the Cosmic Discoveries App effectively operates with JSON data. It utilizes the **Codable** and **Decodable** protocols to model and parse the data.
 
 ## Main Screen
 

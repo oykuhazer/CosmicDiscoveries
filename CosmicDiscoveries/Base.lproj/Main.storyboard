@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FjW-20-rMb">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Entry-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="Entry" customModule="CosmicDiscoveries" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="4sv-9W-Bui"/>
+                    <connections>
+                        <segue destination="B6K-PL-n10" kind="show" id="90w-t1-Ax2"/>
+                        <segue destination="HXG-CD-XRe" kind="show" id="lga-5R-Ocu"/>
+                        <segue destination="eAW-E1-J42" kind="show" id="hy6-mP-6MS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="210" y="4"/>
+        </scene>
+        <!--By Week Inf List-->
+        <scene sceneID="I64-YE-Vzl">
+            <objects>
+                <viewController id="HXG-CD-XRe" customClass="ByWeekInfList" customModule="CosmicDiscoveries" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ero-22-Nzo">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="UYV-Le-MGk"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="t5Q-C4-LZk"/>
+                    <connections>
+                        <segue destination="LgL-iz-tNd" kind="show" id="Qur-tQ-TCt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bXb-bM-pNU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2039" y="319"/>
+        </scene>
+        <!--More Inf List-->
+        <scene sceneID="nfo-xL-X0k">
+            <objects>
+                <viewController id="eAW-E1-J42" customClass="MoreInfList" customModule="CosmicDiscoveries" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GNj-Qd-Acq">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="n3p-PR-NK2"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Vz8-lG-046"/>
+                    <connections>
+                        <segue destination="PQj-xR-csx" kind="show" id="olS-t0-zgW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yjC-no-gYM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2039" y="1263"/>
+        </scene>
+        <!--More Inf Detail-->
+        <scene sceneID="A93-Iy-ShP">
+            <objects>
+                <viewController storyboardIdentifier="MoreInfDetailVC" id="PQj-xR-csx" customClass="MoreInfDetail" customModule="CosmicDiscoveries" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DGa-dg-Ug1">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="bYl-1g-DFk"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="RGq-Q4-2Vk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eRr-a3-25b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3091" y="1263"/>
+        </scene>
+        <!--By Week Detail-->
+        <scene sceneID="rAn-ab-hlf">
+            <objects>
+                <viewController storyboardIdentifier="ByWeekDetail" id="LgL-iz-tNd" customClass="ByWeekDetail" customModule="CosmicDiscoveries" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="98f-Bp-BhP">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="j7O-Kx-Sb1"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="5UG-zi-0yH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JWU-ju-pjP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2998" y="318"/>
+        </scene>
+        <!--By Day Information-->
+        <scene sceneID="1tO-H7-PRj">
+            <objects>
+                <viewController id="B6K-PL-n10" customClass="ByDayInformation" customModule="CosmicDiscoveries" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5u2-80-5xC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="aM7-GW-SbH"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="kMA-qr-Flw"/>
+                    <connections>
+                        <segue destination="geF-yu-gZC" kind="show" id="2uI-sN-Q4G"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EQf-mB-2lP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2040" y="-625"/>
+        </scene>
+        <!--Fav List-->
+        <scene sceneID="UzZ-Nf-cuh">
+            <objects>
+                <viewController storyboardIdentifier="FavList" id="geF-yu-gZC" customClass="FavList" customModule="CosmicDiscoveries" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cye-pj-hMH">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="rQn-V3-rbr"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="kjp-pr-C99"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="E8t-Ki-Syo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2998" y="-625"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="vHr-M3-jBp">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="FjW-20-rMb" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Rn8-OW-1sl">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="eE6-ld-3tu"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bGo-KU-ngv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1066" y="4"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
